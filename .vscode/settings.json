@@ -1,0 +1,50 @@
+{
+  "editor.wordWrapColumn": 80,
+  "editor.wordWrap": "on",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["comment"],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#ffff35" // change color only for the comment text
+        }
+      }
+      // color of attributes
+      {
+        "scope": ["entity.other.attribute-name.html"],
+        "settings": {
+          "foreground": "#f038fd"
+        }
+      },
+      // color of class names
+      {
+        "scope": ["string.quoted.double.html", "entity.other.attribute-name.class.css"],
+        "settings": {
+          "foreground": "#4ae257"
+        }
+      },
+      // color of start quotes
+      {
+        "scope": ["punctuation.definition.string.begin.html"],
+        "settings": {
+          "foreground": "#fa2424"
+        }
+      },
+      // color of end quotes
+      {
+        "scope": ["punctuation.definition.string.end.html"],
+        "settings": {
+          "foreground": "#fa2424"
+        }
+      }
+      {
+        "scope": ["punctuation.definition.comment"],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#ffff35" // change color only for the punctuation
+        }
+      }
+    ]
+  }
+}
