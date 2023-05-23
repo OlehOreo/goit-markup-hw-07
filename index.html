@@ -25,10 +25,8 @@
     <!-- HEADER -->
 
     <header class="page-header">
-      <!-- navigation links -->
-
       <div class="mein-nav container">
-        <nav class="menu">
+        <nav class="nav">
           <a class="logo link logo-header" href="./index.html"> Web<span class="logo-text">Studio</span> </a>
 
           <ul class="menu list">
@@ -43,6 +41,12 @@
             </li>
           </ul>
         </nav>
+
+        <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+          <svg width="32" height="22" class="icon-burger">
+            <use href="./images/icons.svg#burger-icon"></use>
+          </svg>
+        </button>
 
         <!-- ADDRESS -->
 
@@ -71,12 +75,11 @@
       </section>
 
       <!--FEATURES -->
-
       <section class="features">
         <div class="container">
           <h2 class="visually-hidden">Working principle of "WEBSTUDIO" company</h2>
 
-          <ul class="features-list list container">
+          <ul class="features-list list">
             <li class="item">
               <div class="features-icons">
                 <svg class="social-icons" width="64" height="64">
@@ -84,8 +87,8 @@
                 </svg>
               </div>
 
-              <h3 class="subtitle">Strategy</h3>
-              <p class="text-content">
+              <h3 class="features-subtitle">Strategy</h3>
+              <p class="features-text">
                 Our goal is to identify the business problem to walk away with the perfect and creative solution.
               </p>
             </li>
@@ -97,8 +100,8 @@
                 </svg>
               </div>
 
-              <h3 class="subtitle">Punctuality</h3>
-              <p class="text-content">
+              <h3 class="features-subtitle">Punctuality</h3>
+              <p class="features-text">
                 Bring the key message to the brand's audience for the best price within the shortest possible time.
               </p>
             </li>
@@ -110,8 +113,8 @@
                 </svg>
               </div>
 
-              <h3 class="subtitle">Diligence</h3>
-              <p class="text-content">
+              <h3 class="features-subtitle">Diligence</h3>
+              <p class="features-text">
                 Research and confirm brands that present the strongest digital growth opportunities and minimize risk.
               </p>
             </li>
@@ -123,8 +126,8 @@
                 </svg>
               </div>
 
-              <h3 class="subtitle">Technologies</h3>
-              <p class="text-content">
+              <h3 class="features-subtitle">Technologies</h3>
+              <p class="features-text">
                 Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.
               </p>
             </li>
@@ -141,6 +144,7 @@
           <ul class="list desc-list">
             <li class="item">
               <img
+                srcset="./images/we-doing/monitor.jpg 1x, ./images/we-doing/monitor@2x.jpg 2x"
                 src="./images/we-doing/monitor.jpg"
                 alt="Computer monitor showing statistics"
                 width="360"
@@ -150,6 +154,7 @@
 
             <li class="item">
               <img
+                srcset="./images/we-doing/applications.jpg 1x, ./images/we-doing/applications@2x.jpg 2x"
                 src="./images/we-doing/applications.jpg"
                 alt="Image of the phone and three screenshots of communication with customers"
                 width="360"
@@ -159,6 +164,7 @@
 
             <li class="item">
               <img
+                srcset="./images/we-doing/phone.jpg 1x, ./images/we-doing/phone@2x.jpg 2x"
                 src="./images/we-doing/phone.jpg"
                 alt="The phone that opens the website 'The Most Inspiring Places'"
                 width="360"
@@ -177,7 +183,13 @@
 
           <ul class="list team-items">
             <li class="team-item">
-              <img src="./images/our-time/mark-guerrero.jpg" alt="Portrait Mark Guerrero" width="264" height="260" />
+              <img
+                srcset="./images/our-time/mark-guerrero.jpg 1x, ./images/our-time/mark-guerrero@2x.jpg 2x"
+                src="./images/our-time/mark-guerrero.jpg"
+                alt="Portrait Mark Guerrero"
+                width="264"
+                height="260"
+              />
 
               <div class="card-team">
                 <h3 class="subtitle">Mark Guerrero</h3>
@@ -240,7 +252,13 @@
             </li>
 
             <li class="team-item">
-              <img src="./images/our-time/tom-ford.jpg" alt="Portrait Tom Ford" width="264" height="260" />
+              <img
+                srcset="./images/our-time/tom-ford.jpg 1x, ./images/our-time/tom-ford@2x.jpg 2x"
+                src="./images/our-time/tom-ford.jpg"
+                alt="Portrait Tom Ford"
+                width="264"
+                height="260"
+              />
 
               <div class="card-team">
                 <h3 class="subtitle">Tom Ford</h3>
@@ -303,7 +321,13 @@
             </li>
 
             <li class="team-item">
-              <img src="./images/our-time/camila-garcia.jpg" alt="Portrait Camila Garcia" width="264" height="260" />
+              <img
+                srcset="./images/our-time/camila-garcia.jpg 1x, ./images/our-time/camila-garcia@2x.jpg 2x"
+                src="./images/our-time/camila-garcia.jpg"
+                alt="Portrait Camila Garcia"
+                width="264"
+                height="260"
+              />
 
               <div class="card-team">
                 <h3 class="subtitle">Camila Garcia</h3>
@@ -366,7 +390,13 @@
             </li>
 
             <li class="team-item">
-              <img src="./images/our-time/daniel-wilson.jpg" alt="Portrait Daniel Wilson" width="264" height="260" />
+              <img
+                srcset="./images/our-time/daniel-wilson.jpg 1x, ./images/our-time/daniel-wilson@2x.jpg 2x"
+                src="./images/our-time/daniel-wilson.jpg"
+                alt="Portrait Daniel Wilson"
+                width="264"
+                height="260"
+              />
 
               <div class="card-team">
                 <h3 class="subtitle">Daniel Wilson</h3>
@@ -430,7 +460,8 @@
           </ul>
         </div>
       </section>
-      <!-- C U S T O M E R S -->
+
+      <!-- -- C U S T O M E R S -->
       <section class="section">
         <div class="container-customers container">
           <h2 class="desc-headings">Customers</h2>
@@ -500,7 +531,7 @@
       </section>
     </main>
 
-    <!-- FOOTER -->
+    <!-- FOOTER  -->
 
     <footer class="footer">
       <div class="wrapper-footer container">
@@ -568,6 +599,7 @@
             </li>
           </ul>
         </div>
+
         <form class="footer-subscribe">
           <label class="footer-label-subscribe">
             <span class="footer-form-text">Subscribe</span>
@@ -651,6 +683,80 @@
         </form>
       </div>
     </div>
+    <!-- Mobile menu -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg width="8" height="8">
+          <use href="./images/icons.svg#close-icon"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu list">
+        <li><a href="./index.html" class="link active">Studio</a></li>
+        <li><a href="./portfolio.html" class="link">Portfoli</a></li>
+        <li><a href="" class="link">Contacts</a></li>
+      </ul>
+
+      <ul class="mobile-contacts list">
+        <li class="mobile-item"><a href="tel:110001111111" class="link-tel link">+11 (000) 111-11-11</a></li>
+        <li><a href="mailto:info@devstudio.com" class="link-mail link">info@devstudio.com</a></li>
+      </ul>
+
+      <ul class="socials-footer-list socials-tel-list list">
+        <li class="social-footer-item">
+          <a
+            href=""
+            class="socials-footer-link link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram icon"
+          >
+            <svg class="socials-footer-icons" width="24" height="24">
+              <use href="./images/icons.svg#instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-footer-item">
+          <a
+            href=""
+            class="socials-footer-link link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Twitter icon"
+          >
+            <svg class="socials-footer-icons" width="24" height="24">
+              <use href="./images/icons.svg#twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-footer-item">
+          <a
+            href=""
+            class="socials-footer-link link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook icon"
+          >
+            <svg class="socials-footer-icons" width="24" height="24">
+              <use href="./images/icons.svg#facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-footer-item">
+          <a
+            href=""
+            class="socials-footer-link link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin icon"
+          >
+            <svg class="socials-footer-icons" width="24" height="24">
+              <use href="./images/icons.svg#linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
 
     <!-- Masc for input -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
@@ -658,5 +764,13 @@
 
     <script src="./js/modal.js"></script>
     <script src="./js/inputmasc.js"></script>
+    <!-- Mobile menu script -->
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>
